@@ -25,7 +25,8 @@ console.assert(protoRick.habla == "Es Rick-dículo!");
 const protoMorty = {
     id: "earthMorty",
     ondas: "bajas",
-    habla: "Oohh man!"
+    habla: "Oohh man!",
+    partner:  protoRick
 };
 console.assert(protoMorty);
 console.assert(protoMorty.id == "earthMorty");
