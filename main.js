@@ -38,6 +38,11 @@ console.assert(protoMorty.habla == "Oohh man!");
 /**
  * Crea el objeto Jerry
  */
+const jerry = {
+    id: "Jerry",
+    monedas:  ["R2-D2", "R2-D2", "R2-D2", "R2-D2"],
+    speak: "Tengo una colección de monedas antiguas raras!",
+};
 
 console.assert(jerry);
 console.assert(jerry.id = "Jerry");
