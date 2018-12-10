@@ -57,6 +57,9 @@ console.assert(jerry.speak() == "Tengo una colección de monedas antiguas raras!
  * y asocia como partner de ese Morty a uno de los Rick-clones.
  */
 
+
+
+
 console.assert(clonRick);
 console.assert(protoRick != clonRick);
 console.assert(Object.getPrototypeOf(clonRick) == protoRick);
