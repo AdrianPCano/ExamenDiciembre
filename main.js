@@ -13,10 +13,6 @@ const protoRick = {
     habla: "Es Rick-dículo!"
 };
 
-protoRick.prototype.getHabla = function () {
-    return this.habla;
-};
-console.log(protoRick.id);
 console.assert(protoRick);
 console.assert(protoRick.id == "C-137");
 console.assert(protoRick.ondas == "altas");
@@ -26,6 +22,11 @@ console.assert(protoRick.habla == "Es Rick-dículo!");
  * Crea el objeto Morty
  */
 
+const protoMorty = {
+    id: "earthMorty",
+    ondas: "bajas",
+    habla: "Oohh man!"
+};
 console.assert(protoMorty);
 console.assert(protoMorty.id == "earthMorty");
 console.assert(protoMorty.ondas == "bajas");
