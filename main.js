@@ -7,6 +7,16 @@
  * Crea el objeto Rick
  */
 
+const protoRick = {
+    id: "C-137",
+    ondas: "altas",
+    habla: "Es Rick-dículo!"
+};
+
+protoRick.prototype.getHabla = function () {
+    return this.habla;
+};
+console.log(protoRick.id);
 console.assert(protoRick);
 console.assert(protoRick.id == "C-137");
 console.assert(protoRick.ondas == "altas");
