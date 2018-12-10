@@ -41,7 +41,9 @@ console.assert(protoMorty.habla == "Oohh man!");
 const jerry = {
     id: "Jerry",
     monedas:  ["R2-D2", "R2-D2", "R2-D2", "R2-D2"],
-    speak: "Tengo una colección de monedas antiguas raras!",
+    speak(){
+        return "Tengo una colección de monedas antiguas raras!"
+    }
 };
 
 console.assert(jerry);

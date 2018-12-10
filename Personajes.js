@@ -12,7 +12,7 @@ const protoMorty = {
     partner:  protoRick
 };
 
-function singletonMorty() {
+function singletonRick() {
 
     const prototipo = new Rick();
 
